@@ -167,5 +167,5 @@ class Crypto:
 
         return cls.instance.get_secure_password(str(FileName))
 
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.0b

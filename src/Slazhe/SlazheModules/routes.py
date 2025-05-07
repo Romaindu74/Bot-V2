@@ -277,5 +277,5 @@ class SlazheMain(HTTPClient):
 
         result = cls().request(r)
         return [] if not result or result.status_code != 200 else result.json().get('modules', [])
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.08

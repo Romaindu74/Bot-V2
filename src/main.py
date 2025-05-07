@@ -54,6 +54,7 @@ if getattr(importer, "get_modules", None) and SlazheMain:
 
     Log.Info("Modules checked successfully.")   
 
+
 SlazheCrypto = getattr(importer, "SlazheCrypto", False)
 if not SlazheCrypto:
     Log.Warn("SlazheCrypto is not available.")
@@ -83,5 +84,5 @@ if hasattr(module_importer, "BotManager"):
 if getattr(module_importer, 'MainCli', None):
     MainCli = module_importer.MainCli()
 
-# Version Globale: v00.00.00.ol
-# Version du fichier: v00.00.00.1i
+# Version Globale: v00.00.00.pi
+# Version du fichier: v00.00.00.1l

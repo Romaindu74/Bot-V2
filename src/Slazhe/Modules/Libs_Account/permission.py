@@ -110,5 +110,5 @@ def require_permission(*required_ids: str, callback_pm: Callable[[PermissionMana
             return func(*args, **kwargs)
         return wrapper
     return decorator
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.06

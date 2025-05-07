@@ -288,5 +288,5 @@ class SlazheBot:
         Log.Info("Saving bot data...")
         return self.__Storage.save(self.__information, "main.slze")
 
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.55

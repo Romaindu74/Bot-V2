@@ -33,7 +33,7 @@ class InstallerModules:
             return Log.Info("No missing modules found.")
 
         progress_bar = LogProgressBar(len(MissingModules))
-        Log.Info(f"Installing {", ".join([m.get("pip-name", "Unknown") for m in MissingModules])}...")
+        Log.Info(f"Installing", ", ".join([m.get("pip-name", "Unknown") for m in MissingModules]), "...")
         for module in MissingModules:
             if self._install_module(module['pip-name']):
                 progress_bar.add(1, 'green')
@@ -52,5 +52,5 @@ class InstallerModules:
                 result.append(module)
 
         return result
-# Version Globale: v00.00.00.ol
-# Version du fichier: v00.00.00.01
+# Version Globale: v00.00.00.pi
+# Version du fichier: v00.00.00.02

@@ -629,5 +629,5 @@ class AllListeners(commands.Cog):
             await self.__callback(event, *args, **kwargs)
         except Exception as e:
             print(f"Exection in listeners.py: {e}")
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.03

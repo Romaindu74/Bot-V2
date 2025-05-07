@@ -100,5 +100,5 @@ class Cog(metaclass=CogMeta):
     
     def slash(self, guild: int = None) -> list[dict[str, Any]]:
         return [c.to_dict for c in self.get_commands(guild).values()]
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.0t

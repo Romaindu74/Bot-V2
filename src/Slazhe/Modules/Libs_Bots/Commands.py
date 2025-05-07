@@ -137,5 +137,5 @@ class CogLoader:
             route.bulk_upsert_global_commands(application_id, payload)
         else:
             route.bulk_upsert_guild_commands(application_id, guild, payload)
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.1p

@@ -158,5 +158,5 @@ class PageManager:
             selected_page.run()
         except Exception as e:
             return Log.Error(f"Exception in function {selected_page.title}: {e}")
-# Version Globale: v00.00.00.ol
+# Version Globale: v00.00.00.pi
 # Version du fichier: v00.00.00.06
