@@ -53,21 +53,21 @@ Le CLI est également **modulaire** et **modifiable** selon tes besoins.
 1. Crée un fichier Python dans le dossier `/Slazhe/Discord/Files/`.
 2. Suis la structure de base d’un module :
    ```python
-from discord.ext    import commands
-from Slazhe.Discord import Cog, command, Context
+   from discord.ext    import commands
+   from Slazhe.Discord import Cog, command, Context
 
-class Ping(Cog):
-    def __init__(self, bot):
-        self.bot: commands.Bot = bot.bot
+   class Ping(Cog):
+      def __init__(self, bot):
+         self.bot: commands.Bot = bot.bot
 
-    @command(name="ping", description="Vérifie la latence")
-    async def ping(self, ctx: Context):
-        latency = round(self.bot.latency * 1000)
+      @command(name="ping", description="Vérifie la latence")
+      async def ping(self, ctx: Context):
+          latency = round(self.bot.latency * 1000)
         
-        await ctx.send(f"Pong! {latency}ms", reference=ctx.ctx.message)
+          await ctx.send(f"Pong! {latency}ms", reference=ctx.ctx.message)
 
-async def setup(bot):
-    return bot.add_cog(Ping(bot))
+   async def setup(bot):
+      return bot.add_cog(Ping(bot))
    ```
 ---
 
