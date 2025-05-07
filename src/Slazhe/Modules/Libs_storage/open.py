@@ -18,7 +18,7 @@ class StorageOpen:
         File: str = os.path.abspath(f'{self.path}/{file}')
         Path: str = os.path.dirname(File)
 
-        os.makedirs(Path, exist_ok = True)
+        os.makedirs(Path, 777, exist_ok = True)
 
         try:
             IOFile = open(File, 'rb')
@@ -78,5 +78,5 @@ class StorageOpen:
 
         return result
 
-# Version Globale: v00.00.00.pi
-# Version du fichier: v00.00.00.02
+# Version Globale: v00.00.00.pl
+# Version du fichier: v00.00.00.03

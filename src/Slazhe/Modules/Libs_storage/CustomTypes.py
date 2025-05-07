@@ -59,5 +59,5 @@ def to_extended(data) -> EBase:
         raise ValueError(f"Type '{T}' non pris en charge.")
     return CustomTyping[T](data)
 
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.01

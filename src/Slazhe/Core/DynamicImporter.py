@@ -94,5 +94,5 @@ class DynamicImporter:
         raise ValueError(f"'{name}' not found in imported modules.")
 
 
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.07

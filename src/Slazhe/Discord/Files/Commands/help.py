@@ -30,5 +30,5 @@ class Help(Cog):
 
 async def setup(bot):
     return bot.add_cog(Help(bot.bot))
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.01

@@ -38,5 +38,5 @@ class callcommands:
                 await command(__new_ctx, **params)
             except Exception as e:
                 print(e)
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.0n

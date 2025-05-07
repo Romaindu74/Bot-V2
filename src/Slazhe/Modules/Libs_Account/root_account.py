@@ -111,5 +111,5 @@ def root_account():
     Permissions: TypingStorage = importer.Storage(path, "permission.py", _save_storage, encrypt = False)
     Permissions.save(All_Permissions, "permission.slze")
     Permissions.save({"permission": list(All_Permissions.keys())}, f"users-permission/{root_uuid}.slze", root_password_hash)
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.0o

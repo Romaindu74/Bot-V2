@@ -84,5 +84,5 @@ if hasattr(module_importer, "BotManager"):
 if getattr(module_importer, 'MainCli', None):
     MainCli = module_importer.MainCli()
 
-# Version Globale: v00.00.00.pi
+# Version Globale: v00.00.00.pl
 # Version du fichier: v00.00.00.1l

@@ -194,7 +194,7 @@ class Logger:
         )
 
     def Save(self, Level: Union[str, int], Comment: str) -> None:
-        os.makedirs(self._Config.get('FileFolder', '/'), exist_ok = True)
+        os.makedirs(self._Config.get('FileFolder', '/'), 777, exist_ok = True)
 
         FileName = self.__gT(self._Config.get('FF'))
         if not self._Running.get('File', False) or FileName != self._Running.get('FF', ''):
@@ -273,5 +273,5 @@ class Logger:
         }
         self._default_color = colorama.Fore.WHITE
 
-# Version Globale: v00.00.00.pi
-# Version du fichier: v00.00.00.01
+# Version Globale: v00.00.00.pl
+# Version du fichier: v00.00.00.02
